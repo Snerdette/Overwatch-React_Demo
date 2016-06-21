@@ -19,7 +19,6 @@ const Header = ({loading}) => {
                         <li><IndexLink to="/" activeclassNameName="active">Home</IndexLink></li>
                         <li><Link to="/courses" activeclassNameName="active">Courses</Link></li>
                         <li><Link to="/survey" activeclassNameName="active">Survey</Link></li>
-                        <li><Link to="/survey" activeclassNameName="active">Survey</Link></li>
                         <li><Link to="/about" activeclassNameName="active">About</Link></li>
                     </ul>
                 </div>
