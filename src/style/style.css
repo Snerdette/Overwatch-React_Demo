@@ -3,8 +3,14 @@
     font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #4d4d4d;
     min-width: 550px;
-    max-width: 850px;
+    /*max-width: 850px;*/
     margin: 0 auto;
+}
+
+body {
+    margin-top: 50px;
+    font-family: 'Arimo', serif;
+    background-color: white;
 }
 
 a.active {
@@ -13,5 +19,38 @@ a.active {
 }
 
 nav {
-    padding-top: 20px;
+    text-align: center;
+    background-color: #29292a;
+}
+
+.navbar-inverse {
+    background-color: #29292a;
+}
+
+.custom-jumbotron {
+    margin-top: 10px;
+    background-color: #E1E3E4;
+}
+
+.container-fluid .jumbotron {
+    border-radius: 0px;
+}
+
+.ps-home {
+    padding: 10px;
+    border-right: 1px solid silver;
+}
+
+.ps-navigation {
+    list-style: none;
+    display: inline-flex;
+}
+
+.ps-course {
+    padding: 10px;
+    border-right: 1px solid silver;
+}
+
+.ps-about {
+    padding: 10px;
 }
