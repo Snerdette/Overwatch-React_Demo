@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import { Link, IndexLink } from 'react-router';
 import LoadingDots from './LoadingDots';
 
-const Header = ({loading}) => {
+const Header = ({}) => {
     return (
         <nav className="navbar navbar-inverse navbar-fixed-top">
             <div className="container">
@@ -17,9 +17,8 @@ const Header = ({loading}) => {
                 <div id="navbar" className="navbar-collapse collapse">
                     <ul className="nav navbar-nav navbar-right">
                         <li><IndexLink to="/" activeclassNameName="active">Home</IndexLink></li>
-                        <li><Link to="/courses" activeclassNameName="active">Courses</Link></li>
+                        <li><IndexLink to="/schedule" activeclassNameName="active">Schedule</IndexLink></li>
                         <li><Link to="/survey" activeclassNameName="active">Survey</Link></li>
-                        <li><Link to="/about" activeclassNameName="active">About</Link></li>
                     </ul>
                 </div>
             </div>
